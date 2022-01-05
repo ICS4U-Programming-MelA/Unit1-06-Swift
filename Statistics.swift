@@ -15,7 +15,7 @@ func calcMean(numberArray: [Int]) -> Double {
   // Declare variables.
   var sum: Int = 0
 
-  // Calculte the mean.
+  // Calculate the mean.
   for number in numberArray {
     sum += number
   }
