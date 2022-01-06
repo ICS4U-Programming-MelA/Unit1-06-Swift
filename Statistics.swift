@@ -71,7 +71,6 @@ let userSetChoice: String = readLine() ?? ""
 
 // Add the numbers from the user's chosen text file to the array.
 let file: String = try String(contentsOfFile: userSetChoice)
-print("That isn't a valid text file. Please try again.")
 let userNumberArray: [String] = file.components(separatedBy: "\n")
 var userNumberArrayInt: [Int] = userNumberArray.compactMap {Int($0)}
 
